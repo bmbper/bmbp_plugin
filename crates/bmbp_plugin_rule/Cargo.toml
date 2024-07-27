@@ -13,7 +13,6 @@ documentation.workspace = true
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bmbp_app_common = { path = "../bmbp_app_common" }
 serde = { workspace = true }
 serde_json = { workspace = true }
 once_cell = { workspace = true }
