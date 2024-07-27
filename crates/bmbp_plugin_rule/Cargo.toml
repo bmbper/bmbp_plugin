@@ -1,0 +1,19 @@
+[package]
+name = "bmbp_plugin_rule"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "规则引擎"
+license.workspace = true
+readme.workspace = true
+homepage.workspace = true
+repository.workspace = true
+documentation.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bmbp_app_common = { path = "../bmbp_app_common" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+once_cell = { workspace = true }
